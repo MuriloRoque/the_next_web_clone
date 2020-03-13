@@ -1,0 +1,11 @@
+.fixed {
+  width: 1000px;
+  margin-bottom: 50px;
+  border: 1px solid red;
+}
+
+.relative {
+  width: 90%;
+  padding-bottom: 10%;
+  border: 1px solid red;
+}
