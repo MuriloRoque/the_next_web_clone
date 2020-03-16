@@ -57,7 +57,7 @@ header {
 
 .main-links {
   margin: 10.8rem auto 0 auto;
-  width: 40.9rem;
+  width: 100%;
 }
 
 .bg-image1 {
@@ -74,16 +74,16 @@ header {
 
 .bg-image1, .bg-image2, .bg-image3 {
   height: 13rem;
-  width: 40.9rem;
+  /* width: 40.9rem; */
   background-position: 50%;
   background-size: cover;
-  margin: 0.8rem auto;
+  margin: 0.8rem;
 }
 
 .top-links {
   background: linear-gradient(rgba(70, 68, 68, 0.466), rgba(0, 0, 0, 0.911));
   height: 13rem;
-  width: 40.9rem;
+  /* width: 40.9rem; */
   padding: 2.4rem 1.2rem;
 }
 
@@ -128,4 +128,126 @@ header {
 
 .hidden {
   visibility: hidden;
+}
+.latest-news h1 a {
+  color: #ff4422;
+  font-size: 28px;
+}
+.general-container-latest-news {
+  display: flex;
+  flex-direction: column;
+}
+.container-latest-news {
+  display: flex;
+  flex: 1 1 100%;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.div1-container-latest-news1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/3JNQTT5-540x270.jpg);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-13-516x270.png);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-ios-13.4-516x270.png);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-12-516x270.png);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/BMW-electric-feature-edrive-incentives-car-shift-future-PHEV-EV-481x270.png);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/airbnb-516x270.jpg);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.div1-container-latest-news8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/cluno-growth-516x270.png);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/* .div1-container-latest-news img {
+  height: 7.5rem;
+  width: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem; */
+
+  .div2-container-latest-news {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+.div2-container-latest-news h4 {
+  margin: 0;
+}  
+.div2-container-latest-news h4 a {
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.div2-container-latest-news h5 {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  margin: 0;
+  padding: 0.8rem 0 0 0 ;
+}
+.div2-container-latest-news h5 a {
+  color: #aaa;
+  font-size: 12px;
+}
+* {
+  border: 1px solid green
 }
