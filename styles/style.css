@@ -248,6 +248,23 @@ header {
   color: #aaa;
   font-size: 12px;
 }
+.latest-funding{
+  display: flex;
+  flex-direction: column;
+}
+.more, .more a {
+  color: #ff4422;
+  display: block;
+}
+.more a {
+  text-decoration: none;
+}
+.funding-name h1{
+ background: #ff4422;
+}
+.funding-name h2 {
+  background-color: rgba(255, 68, 34, 0.08);
+}
 * {
   border: 1px solid green
 }
