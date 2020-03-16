@@ -56,5 +56,76 @@ header {
 }
 
 .main-links {
-  margin-top: 10.8rem;
+  margin: 10.8rem auto 0 auto;
+  width: 40.9rem;
+}
+
+.bg-image1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Bing-COVID-19-tracker-hed-coronavirus-796x419.jpg);
+}
+
+.bg-image2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
+}
+
+.bg-image3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Verily-coronavirus-screening-hed-796x419.jpg);
+}
+
+.bg-image1, .bg-image2, .bg-image3 {
+  height: 13rem;
+  width: 40.9rem;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0.8rem auto;
+}
+
+.top-links {
+  background: linear-gradient(rgba(70, 68, 68, 0.466), rgba(0, 0, 0, 0.911));
+  height: 13rem;
+  width: 40.9rem;
+  padding: 2.4rem 1.2rem;
+}
+
+.top-links h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.056rem;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.top-links h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03rem;
+  line-height: 2.2rem;
+  font-family: sans-serif;
+  font-stretch: 100%;
+  margin: 0;
+}
+
+.top-links h4 {
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.bottom-links {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.bottom-links img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 1rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
