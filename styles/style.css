@@ -467,6 +467,82 @@ section {
   font-weight: 400;
 }
 
+.top-footer {
+  background-color: #131313;
+  height: 16.1rem;
+  width: 100%;
+  padding: 3.5rem 0;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  height: 4.6rem;
+  margin-bottom: 2.1rem;
+}
+
+.footer-social a {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #333;
+  padding: 1.2rem 0 0 1.2rem;
+  margin-right: 0.6rem;
+}
+
+.footer-links ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 1.3rem;
+  color: #aaa;
+  margin: 0 0.4rem;
+}
+
+.bottom-footer {
+  height: 12.2rem;
+  width: 100%;
+  padding: 3rem 0;
+  background-color: #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tnw-footer{
+  width: 3.7rem;
+  height: 0.9rem;
+  margin-right: 0.6rem;
+}
+
+.bottom-footer h6 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #aaa;
+  margin: 0;
+}
+
+.stack-path {
+  width: 6.5rem;
+  height: 0.9rem;
+  margin-left: 0.6rem;
+}
+
+.bottom-footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+b {
+  color: #ff4422;
+}
+
 /* * {
   border: 1px solid green
 } */
