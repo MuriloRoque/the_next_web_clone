@@ -627,21 +627,95 @@ b {
 }
 
 @media only screen and (min-width:768px) {
+  .navbar {
+    display: grid;
+    grid-template: 3.2rem 1fr/ 10.8rem 1fr;
+  }
+  .navbar img {
+    grid-row: 1/-1;
+  }
+  .logo {
+    height: 15vh;
+    width: 10.8rem;
+  }
+  .top-central-nav, .top-nav, .bottom-nav {
+    padding: 0;
+    margin: 0;
+  }
+  .central-nav {
+    display: flex;
+    align-items: center;
+  }
+  .central-nav a {
+    color: #aaa;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    height: 48px;
+    padding: 18px 10px 0;
+    font-size: 14px;
+  }
+  .bottom-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-list
+  {
+    display: none;
+  }
+  .right-nav {
+    margin-left: 10px;
+  }
+  .tech-festival {
+    position: fixed;
+    padding: 0;
+    height: 30px;
+    padding: 8px;
+    top:86px;
+    left: 0;
+  }
   .top-central-nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .top-nav {
+    background-color: #131313;
+    display: block;
+    line-height: 32px;
+    width: 100%;
+
+  }
+  .top-nav ul {
+    display: block;
+    padding: 0;
+    margin: 0;
   }
   .top-nav ul div {
     display: flex;
     list-style-type: none;
   }
-  .top-nav {
-    display: block;
+  .top-nav li:not(.whitenews) {
+    color: white;
+    opacity: 0.6;
   }
-  
-  .central-nav {
-    display: block;
+  .whitenews {
+  color: white;
   }
+  .top-nav li {
+    float: left;
+    margin-left: 12px;
+    font-size: 13px;
+  }
+  .left-ul-links {
+    float: left;
+  }
+  .right-ul-links {
+    float: right;
+    margin-right: 10px;
+  }
+  /* .central-nav {
+    display: block;
+  } */
 }
 
 /* * {
