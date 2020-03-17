@@ -522,7 +522,52 @@ section {
   width: 7.5rem;
   height: 7.5rem;
 }
+.latest-bg {
+  min-width: 7.7rem;
+  min-height: 7.5rem;
+}
+.lt-bg1 {
+  background-image: url(https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg2 {
+  background-image: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg3 {
+  background-image: url(https://cdnp1.stackassets.com/80c619e01841705c913719fbeb2a7d59d0b06b74/store/8b2bffd1fff65448a1d281f7ae49c6b6dfa3395ebe7d0789ec06e927b70f/sale_26679_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg4 {
+  background-image: url(https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg5 {
+  background-image: url(https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg6 {
+  background-image: url(https://cdnp1.stackassets.com/b0d6e5036bbc8bd458e72850dc5901ebf21eed85/store/3d6dd37b949b26b1aa826f291674ec8ca3d75f7cf6b4631135120de96ac4/sale_xxxxx_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg7 {
+  background-image: url(https://cdnp1.stackassets.com/b5f373f63242539de2302f03aa9498601d6a2968/store/6214a05e495b0b0a9c306989bfa8053c49cc83f6c0cb7c9cae0e22124210/product_36559_product_shots3.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.lt-bg8 {
+  background-image: url(https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
 
+/* * {border: 1px solid green} */
 .latest-deals1 h1 {
   font-size: 1.6rem;
   color: #000;
@@ -742,11 +787,56 @@ b {
   [class="none768"] {
     display: none;
   }
-  /* .central-nav {
-    display: block;
-  } */
+.general-container-latest-news {
+  display: grid;
+  grid-template: repeat(3,1fr)/repeat(3,1fr);
+  grid-gap: 15px;
 }
-
+.container-latest-news {
+  display: flex;
+  flex-direction: column;
+}
+.div1-container-latest-news {
+  margin: 0;
+  padding: 0;
+  width: 30vw;
+  height: 30vh;
+}
+.div2-container-latest-news  {
+  text-decoration: none;
+}
+.funding-container {
+  display: flex;
+}
+.categories {
+  display: grid;
+  grid-template: repeat(4, 1fr)/1fr 1fr;
+  grid-gap: 20px;
+}
+.latest-cat {
+  margin-top: 5px;
+}
+.latest-deals-container {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+}
+.latest-deals1 {
+  display: flex;
+  flex-direction: column;
+}
+.latest-bg {
+  width: 30vw;
+  height: 30vh;
+}
+[class="latest-info"] {
+  margin-top: 10px;
+}
+.bottom-footer {
+  display: flex;
+  flex-direction: row;
+}
+}
+/* 
 * {
   border: 1px solid green
-}
+} */
