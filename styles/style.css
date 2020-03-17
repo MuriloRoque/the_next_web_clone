@@ -17,6 +17,13 @@ header {
   width: 100%;
 }
 
+.top-nav {
+  display: none;
+}
+
+.central-nav {
+  display: none;
+}
 .logo {
   width: 10.6rem;
   height: 4.8rem;
@@ -86,7 +93,6 @@ header {
 .top-links {
   background: linear-gradient(rgba(70, 68, 68, 0.466), rgba(0, 0, 0, 0.911));
   height: 13rem;
-  /* width: 40.9rem; */
   padding: 2.4rem 1.2rem;
 }
 
@@ -325,19 +331,60 @@ section {
   margin-right: 0.6rem;
 }
 .popular-background {
+  position: relative;
+  height: 290px;
+  width: 100%;
+}
+.popular-1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Whatsapp-bug-warning-368x276.jpg);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 290px;
-  width: 100%;
   }
-.popular-background {
-  position: relative;
+.popular-2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-ios-13.4-368x276.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/tiktok-368x276.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design53-368x276.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular-8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .popular-background a {
   color: white;
-  /* font-size: 13px; */
   text-decoration: none;
   position: absolute;
   bottom: 5px;
@@ -360,13 +407,12 @@ section {
 } 
 .latest-cat {
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-basis: 96px; */
+  justify-content: space-between;
 }
 .latest-cat1 {
   background-color: rgba(255,68,34,.06);
-  padding: 10px 14px 0;
-  width: 75%;
+  padding: 10px 0 0 0;
+  width: 100%;
 }
 .latest-cat1, h1 a {
   color: #ff4422;
@@ -385,11 +431,46 @@ section {
   margin: 0;
 }
 .latest-cat2 {
-  width: 25%;
+  width: 118px;
   height: 96px;
 }
 .bgimages1 {
   background-image: url(../images/Bing-COVID-19-tracker-hed-coronavirus-796x419.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/iPhone-SE-hed.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header.png);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04.png);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/american-voting.png);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/EV-BUDGET-picg-tesla-cars-uk-government-cut-price-less-money.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.bgimages8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/twitter-bot-pitching.png);
   background-position: 50%;
   background-size: cover;
 }
@@ -479,6 +560,7 @@ section {
   justify-content: center;
   height: 4.6rem;
   margin-bottom: 2.1rem;
+  flex-wrap: wrap;
 }
 
 .footer-social a {
@@ -495,6 +577,7 @@ section {
   display: flex;
   justify-content: center;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .footer-links li {
@@ -541,6 +624,24 @@ section {
 
 b {
   color: #ff4422;
+}
+
+@media only screen and (min-width:768px) {
+  .top-central-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-nav ul div {
+    display: flex;
+    list-style-type: none;
+  }
+  .top-nav {
+    display: block;
+  }
+  
+  .central-nav {
+    display: block;
+  }
 }
 
 /* * {
