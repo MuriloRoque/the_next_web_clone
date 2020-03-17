@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+
 }
 
 header {
@@ -7,6 +8,7 @@ header {
   width: 100%;
   top: 0;
   background-color: #fff;
+  z-index: 2;
 }
 
 .navbar {
@@ -47,6 +49,7 @@ header {
   color: #000;
   text-align: center;
   padding-top: 2.3rem;
+  z-index: 2;
 }
 
 .tech-festival h5 {
@@ -143,77 +146,51 @@ header {
   width: 100%;
   margin: 0.5rem 0;
 }
-.div1-container-latest-news1 {
+.div1-container-latest-news {
+  min-width: 7.5rem;
+  height: 7.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.news1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/3JNQTT5-540x270.jpg);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news2 {
+.news2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-13-516x270.png);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news3 {
+.news3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news4 {
+.news4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-ios-13.4-516x270.png);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news5 {
+.news5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-12-516x270.png);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news6 {
+.news6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/BMW-electric-feature-edrive-incentives-car-shift-future-PHEV-EV-481x270.png);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news7 {
+.news7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/airbnb-516x270.jpg);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-.div1-container-latest-news8 {
+.news8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/cluno-growth-516x270.png);
   background-position: 50%;
   background-size: cover;
-  min-width: 7.5rem;
-  height: 7.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 /* .div1-container-latest-news img {
   height: 7.5rem;
@@ -256,15 +233,84 @@ header {
   color: #ff4422;
   display: block;
 }
+.more h2 {
+  font-size: 2.5rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+}
 .more a {
   text-decoration: none;
+  font-size: 1.6rem;
+  margin-left: 1.2rem;
+  margin-top: 0.3rem;
+}
+.funding {
+  margin: 1rem;
+  z-index: 1;
+}
+.funding-name {
+  position: relative;
+  padding: 5px 0;
 }
 .funding-name h1{
  background: #ff4422;
+ color: white;
+ font-size: 2rem;
+ padding-left: 80px;
+ padding-top: 10px;
+ margin: 0;
+ height: 5rem;
 }
-.funding-name h2 {
+.funding-name h2, h3 {
   background-color: rgba(255, 68, 34, 0.08);
+  font-size: 2rem;
+  padding-left: 80px;
+  margin: 0;
 }
-* {
+.funding-name h3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+}
+.funding-name img {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.funding-quantity1 {
+  display: flex;
+  align-items: center;
+}
+.funding-quantity1 img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 0.6rem;
+}
+.funding-quantity1 p {
+  font-size: 15px;
+  color: #555;
+  margin: 0.2rem;
+}
+.funding-description {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 69, 36, 0.25098039);
+}
+.funding-description a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+  margin: 0 0.6rem;
+}
+.funding-description a span {
+  color: #aaa;
+  margin: 0 0.6rem;
+}
+
+.none {
+  display: none;
+}
+/* * {
   border: 1px solid green
-}
+} */
