@@ -407,6 +407,66 @@ section {
   font-size: 14px;
   padding: 6px 0 6px 14px;
 }
-* {
-  border: 1px solid green
+
+.latest-deals {
+  margin: 0 1.4rem;
 }
+
+.deals-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0 2rem 0;
+  align-items: center;
+}
+
+.deals-title h1 {
+  color: #ff4422;
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+.deals-title h4 {
+  font-size: 1.6rem;
+  color: #ff4422;
+  margin: 0;
+}
+
+.latest-deals1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.latest-deals1 img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.latest-deals1 h1 {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 700;
+  line-height: 2rem;
+  margin: 0 0 0 1.3rem;
+}
+
+.latest-deals1 h4 {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  color: #aaa;
+  font-weight: 400;
+  display: inline;
+  margin: 0 0 0 1.3rem;
+}
+
+.latest-deals1 h5 {
+  display: inline;
+  margin: 0 0 0 1.3rem;
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 400;
+}
+
+/* * {
+  border: 1px solid green
+} */
