@@ -307,10 +307,106 @@ header {
   color: #aaa;
   margin: 0 0.6rem;
 }
-
+.categories-title h1 {
+  color: #ff4422;
+  font-size: 2.5rem;
+}
 .none {
   display: none;
 }
-/* * {
-  border: 1px solid green
+/* .categories, .cat-articles {
+  width: 100%;
+  height: auto;
 } */
+section {
+  margin: 0.6rem;
+}
+.categories-title {
+  margin-right: 0.6rem;
+}
+.popular-background {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Whatsapp-bug-warning-368x276.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 290px;
+  width: 100%;
+  }
+.popular-background {
+  position: relative;
+}
+.popular-background a {
+  color: white;
+  /* font-size: 13px; */
+  text-decoration: none;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.popular-background a h2 {
+  letter-spacing: 0.04em;
+  margin: 0;
+  font-size: 12px;
+}
+.popular-background a h1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin: 0;
+}
+.popular-background a p {
+  opacity: 0.6;
+  margin: 0;
+  font-size: 13px;
+} 
+.latest-cat {
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-basis: 96px; */
+}
+.latest-cat1 {
+  background-color: rgba(255,68,34,.06);
+  padding: 10px 14px 0;
+  width: 75%;
+}
+.latest-cat1, h1 a {
+  color: #ff4422;
+}
+.latest-cat1 h2 {
+  font-size: 13px;
+  margin: 0;
+}
+.latest-cat1 h1 {
+  margin: 0;
+  padding-top: 0;
+  font-size: 0em;
+}
+.latest-cat1 h1 a {
+  font-size: 14px;
+  margin: 0;
+}
+.latest-cat2 {
+  width: 25%;
+  height: 96px;
+}
+.bgimages1 {
+  background-image: url(../images/Bing-COVID-19-tracker-hed-coronavirus-796x419.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+.cat-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.cat-list li::before {
+  content: "•";
+  color: #ff4422;
+  margin-right: 10px;
+}
+.cat-list li {
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  padding: 6px 0 6px 14px;
+}
+* {
+  border: 1px solid green
+}
