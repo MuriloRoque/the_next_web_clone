@@ -84,8 +84,6 @@ header {
 .bg-image2,
 .bg-image3 {
   height: 16rem;
-
-  /* width: 40.9rem; */
   background-position: 50%;
   background-size: cover;
   margin: 0.8rem;
@@ -862,8 +860,8 @@ b {
   .div1-container-latest-news {
     margin: 0;
     padding: 0;
-    width: 30vw;
-    height: 30vh;
+    width: 22.9rem;
+    height: 11.4rem;
   }
 
   .div2-container-latest-news {
