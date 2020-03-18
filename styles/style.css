@@ -2,31 +2,64 @@ html {
   font-size: 62.5%;
 }
 
-header, .navbar, .tech-festival, .main-links, .container-latest-news, .div2-container-latest-news h5, .popular-background, .latest-cat1, .top-footer, .bottom-footer {
+header,
+.navbar,
+.tech-festival,
+.main-links,
+.container-latest-news,
+.div2-container-latest-news h5,
+.popular-background,
+.latest-cat1,
+.top-footer,
+.bottom-footer {
   width: 100%;
 }
 
-header, .tech-festival {
+header,
+.tech-festival {
   z-index: 2;
 }
 
-.navbar, .right-nav, .bottom-links, .general-container-latest-news, .container-latest-news, .div2-container-latest-news, .latest-funding, .funding-quantity1, .latest-cat, .deals-title, .latest-deals1, .footer-social, .footer-links ul, .bottom-footer, .bottom-footer span {
+.navbar,
+.right-nav,
+.bottom-links,
+.general-container-latest-news,
+.container-latest-news,
+.div2-container-latest-news,
+.latest-funding,
+.funding-quantity1,
+.latest-cat,
+.deals-title,
+.latest-deals1,
+.footer-social,
+.footer-links ul,
+.bottom-footer,
+.bottom-footer span {
   display: flex;
 }
-.top-links h2, .top-links h1 {
+
+.top-links h2,
+.top-links h1 {
   color: #fff;
 }
+
 header {
   position: fixed;
   top: 0;
   background-color: #fff;
 }
 
-.navbar, .latest-cat, .deals-title {
+.navbar,
+.latest-cat,
+.deals-title {
   justify-content: space-between;
 }
 
-.top-nav, .central-nav, .none, .abs-logo, .date-time {
+.top-nav,
+.central-nav,
+.none,
+.abs-logo,
+.date-time {
   display: none;
 }
 
@@ -34,9 +67,14 @@ header {
   width: 10.6rem;
   height: 4.8rem;
 }
-.tech-festival, .search, .nav-list, .bottom-footer {
+
+.tech-festival,
+.search,
+.nav-list,
+.bottom-footer {
   text-align: center;
 }
+
 .search,
 .nav-list {
   width: 4.8rem;
@@ -44,18 +82,29 @@ header {
   padding-top: 1.6rem;
   border-left: 1px solid #eee;
 }
-.nav-list img, .bottom-links img, .funding-quantity1 img {
+
+.nav-list img,
+.bottom-links img,
+.funding-quantity1 img {
   height: 1.6rem;
 }
+
 .nav-list img {
   width: 2rem;
 }
-.tech-festival, .top-links h2, .latest-deals1 h5 {
+
+.tech-festival,
+.top-links h2,
+.latest-deals1 h5 {
   font-size: 1.4rem;
 }
-.tech-festival, .div2-container-latest-news h4 a, .latest-deals1 h1 {
+
+.tech-festival,
+.div2-container-latest-news h4 a,
+.latest-deals1 h1 {
   color: #000;
 }
+
 .tech-festival {
   position: fixed;
   top: 4.8rem;
@@ -63,9 +112,16 @@ header {
   height: 6rem;
   padding-top: 2.3rem;
 }
-.tech-festival h5, .top-links h4, .div2-container-latest-news h5, .latest-deals1 h4, .latest-deals1 h5, .bottom-footer span {
+
+.tech-festival h5,
+.top-links h4,
+.div2-container-latest-news h5,
+.latest-deals1 h4,
+.latest-deals1 h5,
+.bottom-footer span {
   font-weight: 400;
 }
+
 .tech-festival h5 {
   margin: auto auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -86,24 +142,75 @@ header {
 .bg-image3 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Verily-coronavirus-screening-hed-796x419.jpg);
 }
-[class^=bg-image], .news1, .news2, .news3, .news4, .news5, .news6, .news7, .news8, .popular1, .popular2, .popular3, .popular4, .popular5, .popular6, .popular7, .popular8, .bg-images1, .bg-images2, .bg-images3, .bg-images4, .bg-images5, .bg-images6, .bg-images7, .bg-images8, [class*=lt-bg] {
+
+[class^=bg-image],
+.news1,
+.news2,
+.news3,
+.news4,
+.news5,
+.news6,
+.news7,
+.news8,
+.popular1,
+.popular2,
+.popular3,
+.popular4,
+.popular5,
+.popular6,
+.popular7,
+.popular8,
+.bg-images1,
+.bg-images2,
+.bg-images3,
+.bg-images4,
+.bg-images5,
+.bg-images6,
+.bg-images7,
+.bg-images8,
+[class*=lt-bg] {
   background-position: 50%;
   background-size: cover;
 }
+
 .bg-image1,
 .bg-image2,
 .bg-image3 {
   height: 16rem;
   margin: 0.8rem;
 }
+
 .top-links {
   background: linear-gradient(rgba(70, 68, 68, 0.466), rgba(0, 0, 0, 0.911));
   height: 16rem;
   padding: 4.8rem 1.2rem 0.8rem 1.2rem;
 }
-.top-links h2, .top-links h1, .top-links h4, .div2-container-latest-news h4, .div2-container-latest-news h4 a, .div2-container-latest-news, .div2-container-latest-news h5, .funding-name h1, .funding-name h2, .funding-name h3, .popular-background a h2, .popular-background a h1, .popular-background a p, .latest-cat1 h2, .latest-cat1 h1, .latest-cat1 h1 a, .deals-title h1, .deals-title h4, .bottom-footer span, .top-central-nav, .top-nav, .bottom-nav {
+
+.top-links h2,
+.top-links h1,
+.top-links h4,
+.div2-container-latest-news h4,
+.div2-container-latest-news h4 a,
+.div2-container-latest-news,
+.div2-container-latest-news h5,
+.funding-name h1,
+.funding-name h2,
+.funding-name h3,
+.popular-background a h2,
+.popular-background a h1,
+.popular-background a p,
+.latest-cat1 h2,
+.latest-cat1 h1,
+.latest-cat1 h1 a,
+.deals-title h1,
+.deals-title h4,
+.bottom-footer span,
+.top-central-nav,
+.top-nav,
+.bottom-nav {
   margin: 0;
 }
+
 .top-links h2 {
   font-weight: 500;
   letter-spacing: 0.056rem;
@@ -137,9 +244,20 @@ header {
 .hidden {
   visibility: hidden;
 }
-.latest-news h1 a, .more, .more a, .categories-title h1, .latest-cat1, h1 a, .cat-list li::before, .deals-title h1, .deals-title h4, b {
+
+.latest-news h1 a,
+.more,
+.more a,
+.categories-title h1,
+.latest-cat1,
+h1 a,
+.cat-list li::before,
+.deals-title h1,
+.deals-title h4,
+b {
   color: #f42;
 }
+
 .latest-news h1 a {
   font-size: 28px;
 }
@@ -201,9 +319,16 @@ header {
   font-size: 14px;
   padding: 0;
 }
-.div2-container-latest-news h5, .div2-container-latest-news h5 a, .funding-description a span, .latest-deals1 h4, .footer-links li, .bottom-footer span {
+
+.div2-container-latest-news h5,
+.div2-container-latest-news h5 a,
+.funding-description a span,
+.latest-deals1 h4,
+.footer-links li,
+.bottom-footer span {
   color: #aaa;
 }
+
 .div2-container-latest-news h5 {
   font-size: 12px;
   padding: 0.8rem 0 0 0;
@@ -395,7 +520,7 @@ section {
   font-size: 13px;
 }
 
-.latest-cat1 h1 { 
+.latest-cat1 h1 {
   padding-top: 0;
   font-size: 0;
 }
@@ -602,12 +727,25 @@ section {
 }
 
 @media only screen and (min-width: 768px) {
-  .top-nav, .div1-container-latest-news {
+  .top-nav,
+  .div1-container-latest-news {
     width: 100%;
   }
-  .central-nav, .bottom-nav, .top-central-nav, .left-ul-links ul, .right-ul-links ul, .container-latest-news, .funding-container, .latest-deals1, .more, .bottom-footer, .more-a {
+
+  .central-nav,
+  .bottom-nav,
+  .top-central-nav,
+  .left-ul-links ul,
+  .right-ul-links ul,
+  .container-latest-news,
+  .funding-container,
+  .latest-deals1,
+  .more,
+  .bottom-footer,
+  .more-a {
     display: flex;
   }
+
   .navbar {
     display: grid;
     grid-template: 3.2rem 1fr/ 10.8rem 1fr;
@@ -641,11 +779,13 @@ section {
     font-size: 14px;
   }
 
-  .bottom-nav, .more {
+  .bottom-nav,
+  .more {
     justify-content: space-between;
   }
 
-  .nav-list, [class="none768"] {
+  .nav-list,
+  [class="none768"] {
     display: none;
   }
 
@@ -672,9 +812,11 @@ section {
     line-height: 32px;
   }
 
-  .top-nav ul, .div1-container-latest-news {
+  .top-nav ul,
+  .div1-container-latest-news {
     margin: 0;
   }
+
   .top-nav ul {
     display: block;
     padding: 0;
@@ -794,19 +936,17 @@ section {
   .more-a {
     justify-content: space-evenly;
     align-items: center;
+    transform: rotate(180deg);
   }
+
   .more-a a {
     display: inline-block;
   }
-    
-  .more-a {
-    transform: rotate(180deg);
-    
-  }
+
   .more-a > a {
     transform: rotate(-180deg);
   }
-  
+
   .right-border {
     border-left: 1px solid #f42;
     padding-left: 1.5rem;
@@ -822,21 +962,19 @@ section {
 }
 
 @media only screen and (min-width: 1024px) {
-  .top-central-nav, .navbar, .div2-container-latest-news {
+  .top-central-nav,
+  .navbar,
+  .div2-container-latest-news {
     display: flex;
     flex-direction: column;
   }
-  
+
   .bottom-nav {
     height: 55px;
   }
 
   .navbar-img {
     display: none;
-  }
-  
-  .bg-image1 {
-    position: relative;
   }
 
   .abs-logo {
@@ -847,7 +985,7 @@ section {
     width: 33.8rem;
     height: 11.2rem;
   }
-  
+
   .date-time {
     display: block;
     position: absolute;
@@ -872,6 +1010,7 @@ section {
   }
 
   .bg-image1 {
+    position: relative;
     grid-row: 1/-1;
     grid-column: 1/3;
     height: 98%;
@@ -898,6 +1037,7 @@ section {
     padding: 60px 10px 0;
     height: 100%;
   }
+
   .bg-image2 .top-links {
     padding-top: 40px;
   }
@@ -935,7 +1075,6 @@ section {
     flex-wrap: wrap;
     flex-direction: column;
   }
-
 
   .more-h2 h2 {
     margin: 0;
