@@ -731,7 +731,7 @@ h1 a {
   margin-right: 0.6rem;
 }
 
-.bottom-footer h6 {
+.bottom-footer span {
   font-size: 1.3rem;
   font-weight: 400;
   color: #aaa;
@@ -830,7 +830,7 @@ b {
     margin: 0;
   }
 
-  .top-nav ul div {
+  .left-ul-links ul, .right-ul-links ul {
     display: flex;
     list-style-type: none;
   }
