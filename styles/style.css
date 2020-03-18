@@ -13,7 +13,9 @@ header, .tech-festival {
 .navbar, .right-nav, .bottom-links, .general-container-latest-news, .container-latest-news, .div2-container-latest-news, .latest-funding, .funding-quantity1, .latest-cat, .deals-title, .latest-deals1, .footer-social, .footer-links ul, .bottom-footer, .bottom-footer span {
   display: flex;
 }
-
+.top-links h2, .top-links h1 {
+  color: #fff;
+}
 header {
   position: fixed;
   top: 0;
@@ -42,25 +44,30 @@ header {
   padding-top: 1.6rem;
   border-left: 1px solid #eee;
 }
-
-.nav-list img {
-  width: 2rem;
+.nav-list img, .bottom-links img, .funding-quantity1 img {
   height: 1.6rem;
 }
-
+.nav-list img {
+  width: 2rem;
+}
+.tech-festival, .top-links h2, .latest-deals1 h5 {
+  font-size: 1.4rem;
+}
+.tech-festival, .div2-container-latest-news h4 a, .latest-deals1 h1 {
+  color: #000;
+}
 .tech-festival {
   position: fixed;
   top: 4.8rem;
   background-color: #fd3;
   height: 6rem;
-  font-size: 1.4rem;
-  color: #000;
   padding-top: 2.3rem;
 }
-
+.tech-festival h5, .top-links h4, .div2-container-latest-news h5, .latest-deals1 h4, .latest-deals1 h5, .bottom-footer span {
+  font-weight: 400;
+}
 .tech-festival h5 {
   margin: auto auto;
-  font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -79,13 +86,14 @@ header {
 .bg-image3 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Verily-coronavirus-screening-hed-796x419.jpg);
 }
-
+[class^=bg-image], .news1, .news2, .news3, .news4, .news5, .news6, .news7, .news8, .popular1, .popular2, .popular3, .popular4, .popular5, .popular6, .popular7, .popular8, .bg-images1, .bg-images2, .bg-images3, .bg-images4, .bg-images5, .bg-images6, .bg-images7, .bg-images8, [class*=lt-bg] {
+  background-position: 50%;
+  background-size: cover;
+}
 .bg-image1,
 .bg-image2,
 .bg-image3 {
   height: 16rem;
-  background-position: 50%;
-  background-size: cover;
   margin: 0.8rem;
 }
 .top-links {
@@ -93,33 +101,28 @@ header {
   height: 16rem;
   padding: 4.8rem 1.2rem 0.8rem 1.2rem;
 }
-
+.top-links h2, .top-links h1, .top-links h4, .div2-container-latest-news h4, .div2-container-latest-news h4 a, .div2-container-latest-news, .div2-container-latest-news h5, .funding-name h1, .funding-name h2, .funding-name h3, .popular-background a h2, .popular-background a h1, .popular-background a p, .latest-cat1 h2, .latest-cat1 h1, .latest-cat1 h1 a, .deals-title h1, .deals-title h4, .bottom-footer span, .top-central-nav, .top-nav, .bottom-nav {
+  margin: 0;
+}
 .top-links h2 {
-  color: #fff;
-  font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.056rem;
   font-family: sans-serif;
-  margin: 0;
 }
 
 .top-links h1 {
-  color: #fff;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.03rem;
   line-height: 2.2rem;
   font-family: sans-serif;
   font-stretch: 100%;
-  margin: 0;
 }
 
 .top-links h4 {
   color: #999;
   font-size: 1.2rem;
-  font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
 }
 
 .bottom-links {
@@ -128,16 +131,16 @@ header {
 
 .bottom-links img {
   width: 1.6rem;
-  height: 1.6rem;
   margin: 0 1rem;
 }
 
 .hidden {
   visibility: hidden;
 }
-
-.latest-news h1 a {
+.latest-news h1 a, .more, .more a, .categories-title h1, .latest-cat1, h1 a, .cat-list li::before, .deals-title h1, .deals-title h4, b {
   color: #f42;
+}
+.latest-news h1 a {
   font-size: 28px;
 }
 
@@ -159,79 +162,54 @@ header {
 
 .news1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/3JNQTT5-540x270.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-13-516x270.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-ios-13.4-516x270.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-12-516x270.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/BMW-electric-feature-edrive-incentives-car-shift-future-PHEV-EV-481x270.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/airbnb-516x270.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .news8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/cluno-growth-516x270.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .div2-container-latest-news {
   flex-direction: column;
-  margin: 0;
   padding: 0;
-}
-
-.div2-container-latest-news h4 {
-  margin: 0;
 }
 
 .div2-container-latest-news h4 a {
-  color: #000;
   font-size: 14px;
-  margin: 0;
   padding: 0;
 }
-
-.div2-container-latest-news h5 {
+.div2-container-latest-news h5, .div2-container-latest-news h5 a, .funding-description a span, .latest-deals1 h4, .footer-links li, .bottom-footer span {
   color: #aaa;
+}
+.div2-container-latest-news h5 {
   font-size: 12px;
-  font-weight: 400;
-  margin: 0;
   padding: 0.8rem 0 0 0;
 }
 
 .div2-container-latest-news h5 a {
-  color: #aaa;
   font-size: 12px;
 }
 
@@ -241,7 +219,6 @@ header {
 
 .more,
 .more a {
-  color: #f42;
   display: block;
 }
 
@@ -274,7 +251,6 @@ header {
   font-size: 2rem;
   padding-left: 80px;
   padding-top: 10px;
-  margin: 0;
   height: 5rem;
 }
 
@@ -283,7 +259,6 @@ h3 {
   background-color: rgba(255, 68, 34, 0.08);
   font-size: 2rem;
   padding-left: 80px;
-  margin: 0;
 }
 
 .funding-name h3 {
@@ -305,7 +280,6 @@ h3 {
 
 .funding-quantity1 img {
   width: 1.6rem;
-  height: 1.6rem;
   margin: 0 0.6rem;
 }
 
@@ -329,12 +303,10 @@ h3 {
 }
 
 .funding-description a span {
-  color: #aaa;
   margin: 0 0.6rem;
 }
 
 .categories-title h1 {
-  color: #f42;
   font-size: 2.5rem;
 }
 
@@ -353,57 +325,41 @@ section {
 
 .popular-1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Whatsapp-bug-warning-368x276.jpg);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-ios-13.4-368x276.png);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/tiktok-368x276.png);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design53-368x276.png);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popular-8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg);
-  background-position: 50%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -417,19 +373,16 @@ section {
 
 .popular-background a h2 {
   letter-spacing: 0.04em;
-  margin: 0;
   font-size: 12px;
 }
 
 .popular-background a h1 {
   font-size: 2rem;
   line-height: 2.2rem;
-  margin: 0;
 }
 
 .popular-background a p {
   opacity: 0.6;
-  margin: 0;
   font-size: 13px;
 }
 
@@ -438,25 +391,17 @@ section {
   padding: 10px 0 0 0;
 }
 
-.latest-cat1,
-h1 a {
-  color: #f42;
-}
-
 .latest-cat1 h2 {
   font-size: 13px;
-  margin: 0;
 }
 
-.latest-cat1 h1 {
-  margin: 0;
+.latest-cat1 h1 { 
   padding-top: 0;
   font-size: 0;
 }
 
 .latest-cat1 h1 a {
   font-size: 14px;
-  margin: 0;
 }
 
 .latest-cat2 {
@@ -466,50 +411,34 @@ h1 a {
 
 .bgimages1 {
   background-image: url(../images/Bing-COVID-19-tracker-hed-coronavirus-796x419.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/iPhone-SE-hed.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/american-voting.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/EV-BUDGET-picg-tesla-cars-uk-government-cut-price-less-money.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .bgimages8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/twitter-bot-pitching.png);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .cat-list {
@@ -519,7 +448,6 @@ h1 a {
 
 .cat-list li::before {
   content: "•";
-  color: #f42;
   margin-right: 10px;
 }
 
@@ -539,15 +467,11 @@ h1 a {
 }
 
 .deals-title h1 {
-  color: #f42;
-  margin: 0;
   font-size: 2.8rem;
 }
 
 .deals-title h4 {
   font-size: 1.6rem;
-  color: #f42;
-  margin: 0;
 }
 
 .latest-deals1 {
@@ -567,55 +491,38 @@ h1 a {
 
 .lt-bg1 {
   background-image: url(https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg2 {
   background-image: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg3 {
   background-image: url(https://cdnp1.stackassets.com/80c619e01841705c913719fbeb2a7d59d0b06b74/store/8b2bffd1fff65448a1d281f7ae49c6b6dfa3395ebe7d0789ec06e927b70f/sale_26679_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg4 {
   background-image: url(https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg5 {
   background-image: url(https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg6 {
   background-image: url(https://cdnp1.stackassets.com/b0d6e5036bbc8bd458e72850dc5901ebf21eed85/store/3d6dd37b949b26b1aa826f291674ec8ca3d75f7cf6b4631135120de96ac4/sale_xxxxx_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg7 {
   background-image: url(https://cdnp1.stackassets.com/b5f373f63242539de2302f03aa9498601d6a2968/store/6214a05e495b0b0a9c306989bfa8053c49cc83f6c0cb7c9cae0e22124210/product_36559_product_shots3.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .lt-bg8 {
   background-image: url(https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg);
-  background-position: 50%;
-  background-size: cover;
 }
 
 .latest-deals1 h1 {
   font-size: 1.6rem;
-  color: #000;
   font-weight: 700;
   line-height: 2rem;
   margin: 0 0 0 1.3rem;
@@ -624,8 +531,6 @@ h1 a {
 .latest-deals1 h4 {
   font-size: 1.2rem;
   text-decoration: line-through;
-  color: #aaa;
-  font-weight: 400;
   display: inline;
   margin: 0 0 0 1.3rem;
 }
@@ -633,9 +538,7 @@ h1 a {
 .latest-deals1 h5 {
   display: inline;
   margin: 0 0 0 1.3rem;
-  font-size: 1.4rem;
   color: #555;
-  font-weight: 400;
 }
 
 .top-footer {
@@ -669,7 +572,6 @@ h1 a {
 
 .footer-links li {
   font-size: 1.3rem;
-  color: #aaa;
   margin: 0 0.4rem;
 }
 
@@ -691,19 +593,12 @@ h1 a {
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
-  font-weight: 400;
-  color: #aaa;
-  margin: 0;
 }
 
 .stack-path {
   width: 6.5rem;
   height: 0.9rem;
   margin-left: 0.6rem;
-}
-
-b {
-  color: #f42;
 }
 
 @media only screen and (min-width: 768px) {
@@ -731,7 +626,6 @@ b {
   .top-nav,
   .bottom-nav {
     padding: 0;
-    margin: 0;
   }
 
   .central-nav {
@@ -778,10 +672,12 @@ b {
     line-height: 32px;
   }
 
+  .top-nav ul, .div1-container-latest-news {
+    margin: 0;
+  }
   .top-nav ul {
     display: block;
     padding: 0;
-    margin: 0;
   }
 
   .left-ul-links ul,
@@ -858,7 +754,6 @@ b {
   }
 
   .div1-container-latest-news {
-    margin: 0;
     padding: 0;
     width: 22.9rem;
     height: 11.4rem;
