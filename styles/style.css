@@ -566,8 +566,6 @@ section {
   background-position: 50%;
   background-size: cover;
 }
-
-/* * {border: 1px solid green} */
 .latest-deals1 h1 {
   font-size: 1.6rem;
   color: #000;
@@ -614,7 +612,7 @@ section {
   border-radius: 50%;
   background-color: #333;
   padding: 1.2rem 0 0 1.2rem;
-  margin-right: 0.6rem;
+  margin: 0 3px;
 }
 
 .footer-links ul{
@@ -676,7 +674,7 @@ b {
     display: grid;
     grid-template: 3.2rem 1fr/ 10.8rem 1fr;
   }
-  .navbar img {
+  .navbar-img {
     grid-row: 1/-1;
   }
   .logo {
@@ -835,8 +833,115 @@ b {
   display: flex;
   flex-direction: row;
 }
+.footer-social a {
+  margin: 0 8px;
 }
-/* 
-* {
-  border: 1px solid green
-} */
+}
+@media only screen and (min-width: 1024px) {
+.top-central-nav, .navbar {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-img {
+  display: none;
+}
+.none768 {
+  display: block;
+}
+.tech-festival {
+  text-align: start;
+}
+.main-links {
+  display: grid;
+  grid-template: 20rem 20rem / 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.bg-image1 {
+grid-row: 1/-1;
+grid-column: 1/3;
+height: 98%;
+}
+.bg-image1 .top-links {
+  height: 100%;
+  padding-top: 220px;
+}
+.bg-image1 h1 {
+  font-size: 56px;
+  line-height: 56px;
+}
+.bg-image2, .bg-image3 {
+  height: 95%;
+  width: 90%;
+}
+.bg-image2 .top-links, .bg-image3 .top-links {
+  padding: 60px 10px 0;
+  height: 100%;
+}
+.bg-image2 .top-links h1, .bg-image3 .top-links h1 {
+  font-size: 28px;
+  line-height: 35px;
+}
+.hidden {
+  visibility: visible;
+}
+.latest-news, .latest-funding, .categories, .latest-deals {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 30px;
+}
+.general-container-latest-news {
+  display: grid;
+  grid-template: 1fr 1fr/ repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.div1-container-latest-news {
+  width: 100%;
+  height: 13.5rem;
+}
+.div2-container-latest-news {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+}
+.more-h2 h2{
+  margin: 0;
+}
+.more-a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.more-a a:nth-child(2) {
+  border-left: 1px solid #ff4422;
+  border-right: 1px solid #ff4422;
+  padding: 0 10px;
+}
+.funding:first-of-type {
+  margin: 1rem 1rem 1rem 0
+}
+.funding:last-of-type {
+  margin: 1rem 0 1rem 1rem
+}
+.categories {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+}
+.latest-cat {
+  margin-top: 5px;
+}
+.latest-deals-container {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+}
+.latest-bg {
+  width: 27rem;
+  height: 20.1rem;
+}
+.latest-info h5 {
+  font-size: 16px;
+}
+}
