@@ -732,6 +732,9 @@ h1 a {
 }
 
 .bottom-footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.3rem;
   font-weight: 400;
   color: #aaa;
@@ -742,12 +745,6 @@ h1 a {
   width: 6.5rem;
   height: 0.9rem;
   margin-left: 0.6rem;
-}
-
-.bottom-footer span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 b {
@@ -830,7 +827,8 @@ b {
     margin: 0;
   }
 
-  .left-ul-links ul, .right-ul-links ul {
+  .left-ul-links ul,
+  .right-ul-links ul {
     display: flex;
     list-style-type: none;
   }
