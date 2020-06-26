@@ -1,3 +1,5 @@
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Murilo-Click%20to%20Contact-brightgreen)](mailto:muriloengqui@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/MuriloRoquePai1?label=Follow%20Murilo%20on%20Twitter&style=social)](https://twitter.com/MuriloRoquePai1)
+
 # Responsive-Design
 We will be cloning a webpage using a responsive design (Created with Sayyod Saidov)
 ![Responsive Design](/images/screenshot.png)
