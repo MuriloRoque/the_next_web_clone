@@ -15,12 +15,9 @@ We will be cloning a webpage using a responsive design (Created with Sayyod Said
 
 [Click For Live Page](https://raw.githack.com/MuriloRoque/Responsive-Design/example/index.html)
 
-# Setup
-:hammer_and_wrench: Fork this project to your local machine
-
 # Authors
 
-Sayyod Saidov
+- Sayyod Saidov
 
 Email: ssayyod@gmail.com
 
@@ -29,7 +26,7 @@ Github: @MrSayyod
 LinkedIn: [Sayyod Saidov](https://www.linkedin.com/in/sayyod-saidov-507b0818b)
 
 
-Murilo Roque Paiva da Silva
+- Murilo Roque Paiva da Silva
 
 Github: [@MuriloRoque](https://github.com/MuriloRoque)
 
